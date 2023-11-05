@@ -371,6 +371,7 @@ const changeDetails = data => {
 
     const searchPlace = () => {
         if (searchBox.value != "") {
+            document.activeElement.blur()
             getWeatherByCity(searchBox.value);
         }
     }
