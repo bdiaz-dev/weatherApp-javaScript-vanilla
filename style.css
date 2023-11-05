@@ -426,6 +426,7 @@ main{
     }
 
     #front_weather--city{
+        z-index: 490;
         position: relative;
         bottom: 4%;
     }
