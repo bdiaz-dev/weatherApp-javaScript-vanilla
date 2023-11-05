@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mohave&family=Orbitron:wght@400;800&family=Signika+Negative&display=swap" rel="stylesheet">
+    <!--  -->
+
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Now</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <i class="fa-solid fa-xmark fa-3x closeButton"></i>
+            <i class="fa-solid fa-location-crosshairs fa-2x"></i>
+            <div class="searchBox">
+                <h2 style="line-height: 0.2em;">City Search</h2>
+                <br>
+                <button class="Button searchButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <input type="text">
+            </div>
+            <ul id="cities_list">
+                <!-- <li>Almazora</li> -->
+            </ul>
+            <button class="Button editPlacesButton">Edit places</button>
+            <div class="editButtonsBox">
+                <button class="Button cancelEditButton">Cancel</button>
+                <button class="Button deleteAllButton">Delete All</button>
+            </div>
+            
+        </nav>
+    </header>
+    <main>
+        <div id="front_weather">
+            <i class="fa-solid fa-list fa-3x"></i>
+            <h1>Weather Now</h1>
+            
+            <img id="front_weather--img" src="" alt="Weather image">
+            <p id="front_weather--temp">15º</p>
+            <p id="front_weather--resume">Lloviendo</p>
+            <h2 id="front_weather--city">Almazora</h2>
+        </div>
+        <div class="sideCards">
+            <div class="unitsContainer">
+                <button class="celsiusButton Button">ºC</button> <button class="farenButton Button">ºF</button>
+            </div>
+            
+            <H2 class="sideCards--titles">Next hours</H2>
+            <div id="prev5days" class="containerCards">
+                <div class="card prev day1"></div>
+                <div class="card prev day2"></div>
+                <div class="card prev day3"></div>
+                <div class="card prev day4"></div>
+                <div class="card prev day5"></div>
+                <div class="card prev day6"></div>
+                <div class="card prev day7"></div>
+                <div class="card prev day8"></div>
+                <div class="card prev day9"></div>
+                <div class="card prev day10"></div>
+                <div class="card prev day11"></div>
+                <div class="card prev day12"></div>
+                <div class="card prev day13"></div>
+            </div>
+            <h2 class="sideCards--titles">Weather now details</h2>
+            <div id="details" class="containerCards">
+                <div class="card detailCard"></div>
+                <div class="card detailCard"></div>
+                <div class="card detailCard"></div>
+                <div class="card detailCard"></div>
+
+            </div>
+          
+            
+        </div>
+
+    </main>
+
+    <a href="mailto:brunodiaz.dev@gmail.com"><b id="sign">BrunoDiaz.dev</b></a>
+
+
+    <script src="main.js" type="module"></script>
+    <script src="https://kit.fontawesome.com/bc352d024b.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
