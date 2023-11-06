@@ -355,6 +355,10 @@ main{
 }
 
 @media (max-width : 862px){
+    nav{
+        height: 95%;
+    }
+
     main{
         display: flex;
         flex-wrap: wrap;
@@ -426,7 +430,7 @@ main{
     }
 
     #front_weather--city{
-        z-index: 490;
+        z-index: 5;
         position: relative;
         bottom: 4%;
     }
