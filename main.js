@@ -395,6 +395,9 @@
     deleteAllButton.addEventListener('click', async () => {
         if ( confirm((lang == 'es')? '¿Confirmas que quieres borrar toda la lista de ubicaciones?' : 'Are you sure to delete all the places on the list?')) {
             citiesList.innerHTML = ""
+            const allLis = document.querySelectorAll('li')
+            if (allLis.length <= 0) {cancelEdit()}
+            storageFunction()
         }
     })
 
