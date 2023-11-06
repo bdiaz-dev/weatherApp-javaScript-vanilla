@@ -397,7 +397,7 @@
             citiesList.innerHTML = ""
             const allLis = document.querySelectorAll('li')
             if (allLis.length <= 0) {cancelEdit()}
-            storageFunction()
+            localStorage.removeItem("cities");
         }
     })
 
