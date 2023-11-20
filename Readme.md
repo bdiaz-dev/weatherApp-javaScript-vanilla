@@ -16,6 +16,7 @@ The App shows some details of weather.
 - Wind direction and speed
 - Humididty
 - Day´s Min/Max temps
+- weather prediction in sections of 3 hours
 
   ** WEB APP **
   https://weathernow-by-brunodiaz.netlify.app/
