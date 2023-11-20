@@ -413,10 +413,12 @@
 
 // initial functions -> get localStorage saved & weather by position
 
-    const initialStorage = [...JSON.parse(localStorage?.getItem('cities'))]
+    if (localStorage.cities){
+    const initialStorage = [...JSON.parse(localStorage.getItem('cities'))]
     initialStorage.forEach((city) => {
         addToList(city)
     })
+    }
     getWeatherByPos()
 
 //
