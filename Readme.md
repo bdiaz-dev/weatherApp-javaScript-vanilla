@@ -1,4 +1,6 @@
-I made with only JavaScript Vanilla a full working Weather App than have some functionalities.
+# WEATHER NOW
+
+## I made with only JavaScript Vanilla a full working Weather App than have some functionalities.
 
 - Weather by Geoposition
 - Weather by place searching
@@ -8,7 +10,7 @@ I made with only JavaScript Vanilla a full working Weather App than have some fu
 - Browser language detect
    *(only Spanish or English, if your browser is in another language the app configures in English)
 
-The App shows some details of weather.
+## The App shows some details of weather.
 
 - Temperature
 - Resume of actual weather
@@ -18,13 +20,13 @@ The App shows some details of weather.
 - Day´s Min/Max temps
 - weather prediction in sections of 3 hours
 
-  ** WEB APP **
-  https://weathernow-by-brunodiaz.netlify.app/
+## ** WEB APP **
+  https://weathernow.brunodiaz.es/
 
-Api used: OpenWeatherMap
+## Api used: OpenWeatherMap
   https://openweathermap.org/
 
-Weather Icons by:
+## Weather Icons by:
   - iconixar - Flaticon
   https://www.flaticon.com/free-icons/sun
 
